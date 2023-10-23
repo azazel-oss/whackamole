@@ -1,0 +1,10 @@
+.mole {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border: 1px solid black; 
+}
+
+.mole.active {
+    background-color: green;
+}

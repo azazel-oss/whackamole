@@ -1,0 +1,8 @@
+.game {
+    color: red;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 rows, each taking 1 fraction of available space */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns, each taking 1 fraction of available space */
+    width: 300px; /* Set a fixed width for the grid container, adjust as needed */
+    margin: 0 auto; /* Center the grid horizontally */
+}
